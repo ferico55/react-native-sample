@@ -5,7 +5,7 @@ import { StackNavigator } from "react-navigation";
 import HomeScreen from "./HomeScreen";
 
 const SimpleApp = StackNavigator({
-  Home: { screen: HomeScreen }
+  Home: { screen: HomeScreen },
 });
 
 export default class App extends React.Component {
